@@ -99,6 +99,16 @@ const COACHES = [
 
   // ---- Kyle ----
   {
+    name: "Eric Aranjo", grade: 12, house: "kyle", role: "",
+    photo: "eric-aranjo.jpg",
+    bio: "",
+  },
+  {
+    name: "Emma Jin", grade: 10, house: "kyle", role: "Design & Tech Team",
+    photo: "emma-jin.jpg",
+    bio: "Hey guys, I’m Emma, a sophomore at TKA. I joined Math Team back in 6th grade and I remember it being a huge part of my junior high years. Looking back, it has taught me many skills and was a very fun experience. I have participated in many competitions and did well in some, and not so well in others. This year I am excited to work on the design and tech team. Outside of Math Team, I like playing volleyball, reading, sleeping, and hanging out with my sister. I hope to meet all of you!",
+  },
+  {
     name: "Jeff Hsu", grade: 10, house: "kyle", role: "",
     photo: "jeff-hsu.jpg",
     bio: "Hi Math Team! I’m Jeff, a sophomore at TKA. I’ve been a part of the math team since 7th grade and have gone to lots of competitions. I really loved the math team when I first joined and it was a great experience! I hope I can make your math team experience just as fun and amazing. I believe that math team is more than just a place to learn math — it’s a community where you learn and grow with all the students and coaches around you. Besides the math team, I’m also on the TKA Robotics team, working as our business lead. My hobbies are swimming, K-pop, and I also work as a tutor. Thanks!",
@@ -107,16 +117,6 @@ const COACHES = [
     name: "Brian Jiang", grade: 9, house: "kyle", role: "Secretary & Tech Team",
     photo: "brian-jiang.jpg",
     bio: "Hi! I’m Brian, a freshman at TKA. I joined math team in 8th grade, and 8th grade was easily the most fun year out of all so far at TKA because of math team. Now that I am a coach, I hope to give back to this amazing community through coaching all of you. Math team is such a great community and I hope I can add to it. This year I am excited to be the secretary and on the tech team. Outside of math, I love to fold origami, play tennis, and watch anime (don’t ask which 🥴). Hope y’all have a great year!",
-  },
-  {
-    name: "Eric Aranjo", grade: 12, house: "kyle", role: "",
-    photo: "eric-aranjo.jpg",
-    bio: "",
-  },
-  {
-    name: "Emma Jin", grade: 9, house: "kyle", role: "Design & Tech Team",
-    photo: "emma-jin.jpg",
-    bio: "Hey guys, I’m Emma, a freshman at TKA. I joined Math Team back in 6th grade and I remember it being a huge part of my junior high years. Looking back, it has taught me many skills and was a very fun experience. I have participated in many competitions and did well in some, and not so well in others. This year I am excited to work on the design and tech team. Outside of Math Team, I like playing volleyball, reading, sleeping, and hanging out with my sister. I hope to meet all of you!",
   },
 ];
 
