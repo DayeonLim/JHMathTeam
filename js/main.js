@@ -1,7 +1,7 @@
 /* ============================================================
    The King's Academy JH Math Team — interactions & rendering
    Depends on data.js (LINKS, TIMELINE, HOUSES, GRADE_LABEL,
-   COACHES, ADVISOR).
+   COACHES, ADVISOR, JV_COACHES).
    ============================================================ */
 
 (function () {
@@ -69,6 +69,24 @@
       </article>`;
   }
 
+  /* JV coaches have no house/grade — simpler card. */
+  function jvCoachCard(c) {
+    const bio = c.bio
+      ? `<p class="coach__bio">${c.bio}</p>`
+      : `<p class="coach__bio is-empty">Bio coming soon.</p>`;
+    return `
+      <article class="coach reveal">
+        ${photoMarkup(c)}
+        <div class="coach__body">
+          <div class="coach__namerow">
+            <h3 class="coach__name">${c.name}</h3>
+          </div>
+          <span class="coach__house" style="background:var(--current)">🪼 JV</span>
+          ${bio}
+        </div>
+      </article>`;
+  }
+
   function renderAdvisor() {
     const wrap = $("#advisor");
     if (!wrap || typeof ADVISOR === "undefined") return;
@@ -95,6 +113,13 @@
     const ordered = [...COACHES].sort((a, b) =>
       b.grade - a.grade || a.name.localeCompare(b.name));
     grid.innerHTML = ordered.map(coachCard).join("");
+  }
+
+  function renderJVCoaches() {
+    const grid = $("#jv-coaches-grid");
+    if (!grid || typeof JV_COACHES === "undefined") return;
+    const ordered = [...JV_COACHES].sort((a, b) => a.name.localeCompare(b.name));
+    grid.innerHTML = ordered.map(jvCoachCard).join("");
   }
 
   function renderFilters() {
@@ -232,6 +257,7 @@
     renderHouses();
     renderAdvisor();
     renderCoaches();
+    renderJVCoaches();
     renderFilters();
     renderTimeline();
     wireNav();
