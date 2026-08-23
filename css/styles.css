@@ -1,6 +1,6 @@
 /* ============================================================
-   The King's Academy JH Math Team — theme
-   Palette:  #cedaef (foam)  ·  #339cc6 (current)  ·  #0e225a (deep)
+   The King's Academy JH Math Team â€” theme
+   Palette:  #cedaef (foam)  Â·  #339cc6 (current)  Â·  #0e225a (deep)
    ============================================================ */
 
 :root {
@@ -253,6 +253,11 @@ img { max-width: 100%; display: block; }
 .coach__bio { color: var(--ink-soft); font-size: .95rem; margin: 0; }
 .coach__bio.is-empty { font-style: italic; opacity: .7; }
 
+/* JV coaches grid â€” a bit denser since bios are shorter/placeholder */
+.coaches--jv { grid-template-columns: repeat(2, 1fr); }
+.coaches--jv .coach { grid-template-columns: 120px 1fr; }
+.coaches--jv .coach__photo { width: 120px; }
+
 /* Timeline */
 .timeline {
   max-width: 900px; margin: 0 auto 2.5rem; padding: 0; list-style: none;
@@ -292,6 +297,7 @@ img { max-width: 100%; display: block; }
   .about__grid { grid-template-columns: 1fr; }
   .houses { grid-template-columns: repeat(2, 1fr); }
   .timeline { grid-template-columns: repeat(2, 1fr); }
+  .coaches--jv { grid-template-columns: 1fr; }
 }
 @media (max-width: 640px) {
   .nav__links {
@@ -306,8 +312,9 @@ img { max-width: 100%; display: block; }
   .nav.is-open .nav__toggle span:nth-child(2) { opacity: 0; }
   .nav.is-open .nav__toggle span:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
   .houses, .coaches, .timeline { grid-template-columns: 1fr; }
+  .coaches--jv .coach { grid-template-columns: 1fr; }
   .coach, .advisor .coach { grid-template-columns: 1fr; }
-  .coach__photo, .advisor .coach__photo {
+  .coach__photo, .advisor .coach__photo, .coaches--jv .coach__photo {
     width: 100%; height: auto; aspect-ratio: 16 / 9; min-height: 0;
   }
   .join__cta, .absence { flex-direction: column; align-items: flex-start; }
