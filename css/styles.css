@@ -1,6 +1,6 @@
 /* ============================================================
-   The King's Academy JH Math Team â€” theme
-   Palette:  #cedaef (foam)  Â·  #339cc6 (current)  Â·  #0e225a (deep)
+   The King's Academy JH Math Team — theme
+   Palette:  #cedaef (foam)  ·  #339cc6 (current)  ·  #0e225a (deep)
    ============================================================ */
 
 :root {
@@ -253,10 +253,8 @@ img { max-width: 100%; display: block; }
 .coach__bio { color: var(--ink-soft); font-size: .95rem; margin: 0; }
 .coach__bio.is-empty { font-style: italic; opacity: .7; }
 
-/* JV coaches grid â€” a bit denser since bios are shorter/placeholder */
-.coaches--jv { grid-template-columns: repeat(2, 1fr); }
-.coaches--jv .coach { grid-template-columns: 120px 1fr; }
-.coaches--jv .coach__photo { width: 120px; }
+/* JV coaches grid — one per row, same layout as varsity coaches */
+.coaches--jv { grid-template-columns: 1fr; }
 
 /* Timeline */
 .timeline {
