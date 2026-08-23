@@ -137,12 +137,12 @@ const JV_COACHES = [
     bio: "Hey guys! I’m Aiden, a sophomore this year. I’m super excited to be able to return to coaching TKA JVMT for the 2026-2027 season. I really enjoyed getting to know a lot of you last year, and can’t wait to help you refine your math skills this coming season. I know that part of what made my middle school years was a community that I could be myself and have fun in, and I hope to cultivate the same environment for you guys. I’m horrendous at ball sports (ask Mr. Petiti) but I love to swim and play the violin (I've been playing for 9 ish years!). I also love Clairo, Daniel Caesar, Keshi, Labubus, matcha, cafes, and wired earphones. I’m also really interested in public health, health literacy, and palliative medicine, so if you’re interested in those, let’s chat! If you need help with any math below calculus, English, biology, want to know pearls for TKA classes, or in being a professional larper, feel free to hit me up. \"The most important thing in life is to learn how to give out love, and to let it come in\" - Morrie Schwartz",
   },
   {
-    name: "Letong Qu", grade: null, role: "Head Coach",
+    name: "Letong Qu", grade: null, role: "",
     photo: "letong-qu.jpg",
     bio: "",
   },
   {
-    name: "Alex Peng", grade: null, role: "Head Coach",
+    name: "Alex Peng", grade: null, role: "",
     photo: "alex-peng.jpg",
     bio: "Hi to anyone who is for some reason taking the time to actually read this! I’m Alex and I’ve been part of the JV Math Team since 6th grade during the Cisco Webex years. I am very excited to be a coach again this year and truly looking forward to another season full of learning, discussions, joy, and meaning. Despite switching to humanities 👀 I still harbor an attachment and passion for math since it teaches us how things work from calculating your grocery bills to extrapolating the parabola of the sun or whatever mathletes do. Anywho, it is my pleasure and honor to hold the position as head coach of the JV team, and I will do well with my abilities to nurture the next generation of mathematicians to ace every math test, steamroll AMCs, and earn the place it deserves in the sun at competitions from Berkeley to Stanford 🙂‍↕️ 🙂‍↔️",
   },
