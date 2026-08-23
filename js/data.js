@@ -126,3 +126,19 @@ const ADVISOR = {
   photo: "dr-ting.jpg",
   bio: "",
 };
+
+/* JV Coaches — meet weekly on Wednesdays. No house assignment (JV runs
+   separately from the four houses above). Drop photos in assets/coaches/
+   named exactly as the "photo" field below, same as varsity coaches. */
+const JV_COACHES = [
+  { name: "Aiden Kwon",    photo: "aiden-kwon.jpg",    bio: "" },
+  { name: "Letong Qu",     photo: "letong-qu.jpg",     bio: "" },
+  { name: "Alex Peng",     photo: "alex-peng.jpg",     bio: "" },
+  { name: "Matthew Chang", photo: "matthew-chang.jpg", bio: "" },
+  { name: "Dael Byun",     photo: "dael-byun.jpg",     bio: "" },
+  { name: "Joshua Leung",  photo: "joshua-leung.jpg",  bio: "" },
+  { name: "Aren Lee",      photo: "aren-lee.jpg",      bio: "" },
+  { name: "Jingwei Guo",   photo: "jingwei-guo.jpg",   bio: "" },
+  { name: "Gloria Zhao",   photo: "gloria-zhao.jpg",   bio: "" },
+  { name: "Hanxuan Meng",  photo: "hanxuan-meng.jpg",  bio: "" },
+];
