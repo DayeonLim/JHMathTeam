@@ -122,7 +122,8 @@
   function renderJVCoaches() {
     const grid = $("#jv-coaches-grid");
     if (!grid || typeof JV_COACHES === "undefined") return;
-    const ordered = [...JV_COACHES].sort((a, b) => a.name.localeCompare(b.name));
+    const ordered = [...JV_COACHES].sort((a, b) =>
+      (b.grade || 0) - (a.grade || 0) || a.name.localeCompare(b.name));
     grid.innerHTML = ordered.map(jvCoachCard).join("");
   }
 
