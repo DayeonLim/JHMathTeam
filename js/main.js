@@ -69,19 +69,23 @@
       </article>`;
   }
 
-  /* JV coaches have no house/grade — simpler card. */
+  /* JV coaches have no house — simpler card, but still show grade/role when known. */
   function jvCoachCard(c) {
     const bio = c.bio
       ? `<p class="coach__bio">${c.bio}</p>`
       : `<p class="coach__bio is-empty">Bio coming soon.</p>`;
+    const gradeLabel = c.grade ? GRADE_LABEL[c.grade] || "" : "";
+    const roleLine = c.role ? `<span class="coach__role">${c.role}</span>` : "";
     return `
       <article class="coach reveal">
         ${photoMarkup(c)}
         <div class="coach__body">
           <div class="coach__namerow">
             <h3 class="coach__name">${c.name}</h3>
+            <span class="coach__grade">${gradeLabel}</span>
           </div>
           <span class="coach__house" style="background:var(--current)">🪼 JV</span>
+          ${roleLine}
           ${bio}
         </div>
       </article>`;
