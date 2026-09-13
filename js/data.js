@@ -94,7 +94,7 @@ const COACHES = [
   {
     name: "Dayeon Lim", grade: 12, house: "jackie", role: "",
     photo: "dayeon-lim.jpg",
-    bio: "Hi! I’m Dayeon, a senior at TKA. I’ve been part of the math team since 10th grade and participated in many math competitions throughout middle school, including earning DHR on the AMC 8 and qualifying for AIME. I loved being part of the math team as a middle schooler, and I hope I can help make the community just as fun and welcoming for you all! Outside of math, I also enjoy dancing, coding, and ceramics :)",
+    bio: "Hi! I’m Dayeon, a senior at TKA. I’ve been part of the math team since 10th grade and participated in many math competitions throughout middle school, including earning DHR on the AMC 8 and qualifying for AIME. I loved being part of my math team in middle school, and I hope I can help make the community just as fun and welcoming for you all! Outside of math, I also enjoy dancing, journaling, and ceramics :)",
   },
 
   // ---- Kyle ----
